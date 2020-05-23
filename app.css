@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 700px;
+  border: 1px solid black;
+}
+
+.createUserHeader {
+  margin: 0px;
+  padding: 17px;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.createUserForm {
+  padding: 30px;
+}
+
+.formElements {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+#createUser {
+  background: green;
+  width: 100%;
+  padding: 12px;
+  font-size: large;
+  color: white;
+}
+
+.form-control {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
